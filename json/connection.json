@@ -1,0 +1,76 @@
+﻿{
+    "lines": [
+        {
+            "lineColor": "#61b7cf",
+            "connectionLabel": "连接",
+            "PageSourceId": "uiscreen_0",
+            "PageTargetId": "uiprint_0"
+        },
+        {
+            "lineColor": "#61b7cf",
+            "connectionLabel": "连接",
+            "PageSourceId": "uiprint_0",
+            "PageTargetId": "uicamera_0"
+        },
+        {
+            "lineColor": "#61b7cf",
+            "connectionLabel": "连接",
+            "PageSourceId": "uiprint_0",
+            "PageTargetId": "uiprint_2"
+        },
+        {
+            "lineColor": "#61b7cf",
+            "connectionLabel": "连接",
+            "PageSourceId": "uiprint_2",
+            "PageTargetId": "uiprint_1"
+        },
+        {
+            "lineColor": "#61b7cf",
+            "connectionLabel": "连接",
+            "PageSourceId": "uicamera_0",
+            "PageTargetId": "uiprint_1"
+        }
+    ],
+    "nodes": [
+        {
+            "BlockId": "uiscreen_0",
+            "BlockClass": "uiscreen",
+            "BlockImg": "images/big-icon/screen.gif",
+            "BlockText": "请假流程开始",
+            "BlockX": 63,
+            "BlockY": 234
+        },
+        {
+            "BlockId": "uicamera_0",
+            "BlockClass": "uicamera",
+            "BlockImg": "images/big-icon/camera.gif",
+            "BlockText": "项目经理审批",
+            "BlockX": 497,
+            "BlockY": 328
+        },
+        {
+            "BlockId": "uiprint_0",
+            "BlockClass": "uiprint",
+            "BlockImg": "images/big-icon/print.gif",
+            "BlockText": "项目总监审批",
+            "BlockX": 260,
+            "BlockY": 237
+        },
+        {
+            "BlockId": "uiprint_2",
+            "BlockClass": "uiprint",
+            "BlockImg": "images/big-icon/print.gif",
+            "BlockText": "老板审批",
+            "BlockX": 498,
+            "BlockY": 151
+        },
+        {
+            "BlockId": "uiprint_1",
+            "BlockClass": "uiprint",
+            "BlockImg": "images/big-icon/print.gif",
+            "BlockText": "审批结束",
+            "BlockX": 770,
+            "BlockY": 252
+        }
+    ]
+}
